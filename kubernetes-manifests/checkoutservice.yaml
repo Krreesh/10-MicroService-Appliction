@@ -40,7 +40,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: checkoutservice
+          image: krreesh/checkoutservice:latest
           ports:
           - containerPort: 5050
           readinessProbe:
